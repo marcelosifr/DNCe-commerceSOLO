@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin: 0px;
+    font-family: 'Raleway';
+}
+
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #2d2d2d;
+    width: 1349px;
+    height: 256px;
+    color:#ffffff;
+}
+    header div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+
+        padding: 53px 43px 0px 56px;
+    }
+        header div input{
+            width: 970px;
+            height: 48px;
+            
+            background: #FFFFFF;
+            border: 1px solid #B7B7B7;
+            border-radius: 10px;
+
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 26px;
+        }
+
+    header nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 61px;
+    }
+
+        header nav h3{
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 35px;
+        }
+
+#imgCentro img{
+    width: 1349px;
+    height: 416px;
+    margin-top: -13px;
+    border: none;
+}
+
+#menuItens{
+    
+    max-width: 1349px;
+    max-height: 960px;
+    background: #2D2D2D;
+    padding: 35px 100px 29px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: -19px;
+    border: none;
+}
+    .cardProd{
+
+        width: 330px;
+        height: 337px;
+        background: #FFFFFF;
+        border: 1px solid #B7B7B7;
+        border-radius: 8px;
+
+        margin-top: 27px;
+        align-items: center;
+        text-align: center;
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+        .cardProd h4{
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .cardProd button{
+            width: 128px;
+            height: 24px;
+            background: #0C70F2;
+            border: 1px solid rgba(0, 0, 0, 0.3);
+
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 20px;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+
+#rodape{
+    width: 1349px;
+    height: 134px;
+    background: #0C70F2;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+    #rodape img{
+        margin-top: -30px;
+        margin-right: 20px;
+        margin-left: 30px;
+    }
+
+    #modal1{
+        background-color: #FFFFFF;
+        width: 1349px;
+        height: 795px;
+        
+        position: absolute;
+        margin-top: -34px;
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+        justify-content: space-around;
+        
+        text-align: justify;
+        color: #2D2D2D;
+
+        z-index: -1;
+    }
+        #modal1 #xboxBig img{
+            width: 395px;
+            height: 321px;
+            margin-bottom: 60px;
+        }
+
+        .modal1 h4 #nomeProduto{
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 20px;
+        }
+
+        #modal1 h3{
+            margin-top: 60px;
+            margin-bottom: 30px;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 20px;
+        }
+
+        #modal1 #descricao{
+            margin-bottom: 19px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 20px;
+        }
+       
+        .modal1 #barra1{
+            width: 330px;
+            height: 2px;
+        }
+
+        .modal1 h1{
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 20px;
+            margin-bottom: 28px;
+        }
+
+        .modal1 #barra2{
+            width: 549px;
+            height: 3px;
+            margin-bottom: 61px;
+        }
+
+        .modal1 #valor{
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 20px;
+
+            margin-bottom: 27px;
+        }
+
+        .modal1 label{
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 20px;
+            margin-bottom: 25px;
+        }
+
+        .modal1 #caracteristicaProduto{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 164px;
+        }
+
+            .modal1 #caracteristicaProduto #preto{
+                width: 40px;
+                height: 40px;
+                background-color: #000000;
+                border-radius: 10px;
+                border: none;
+                margin-right: 20px;
+            }
+
+            .modal1 #caracteristicaProduto #branco{
+                width: 40px;
+                height: 40px;
+                background-color: #ffffff;
+                border-radius: 10px;
+                border: none;
+                margin-right: 20px;
+            }
+
+            .modal1 #caracteristicaProduto #especial{
+                width: 40px;
+                height: 40px;
+                background-color: #999999;
+                border-radius: 10px;
+                border: none;
+                margin-right: 20px;
+            }
+        
+        .modal1 button{
+            width: 510px;
+            height: 61px;
+            padding: 16px 10px;
+            background: #0C70F2;
+            border-radius: 10px;
+
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 20px;
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+        }
+
+            .modal1 button #carrinhoBotao{
+                width: 16px;
+                height: 16px;
+            }
+
+        .modal1 #voltar{
+            align-items: center;
+            text-align: end;
+            margin-top: 10px;
+            cursor: pointer;
+            margin-right: 15%;
+        }
+    /*#fundoModal2{
+        z-index: -1;
+        width: 1349px;
+        height: 1604px;
+        background-color: #FFFFFF;
+        
+        position: fixed;
+        opacity: 0;
+    }*/
+
+    #modal2{
+        width: 1267px;
+        height: 700px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 100px;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        z-index: -1;
+        /*opacity: 0;*/
+    }
+        #modal2 #meuCarrinho{
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 20px;
+            color: #0C70F2;
+            margin-bottom: 50px;
+        }
+
+        #modal2 #nomeProduto2{
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 20px;
+            color: #2D2D2D;
+            margin-bottom: 28px;
+        }
+
+        .modal2 #barra2{
+            width: 549px;
+            height: 3px;
+            margin-bottom: 61px;
+        }
+
+        .modal2 #valor{
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 20px;
+
+            margin-bottom: 27px;
+        }
+
+        .modal2 label{
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 20px;
+            margin-bottom: 25px;
+        }
+
+        .modal2 #caracteristicaProduto{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 100px;
+            
+        }
+
+            .modal2 #caracteristicaProduto #preto{
+                width: 40px;
+                height: 40px;
+                background-color: #000000;
+                border-radius: 10px;
+                border: none;
+                margin-right: 20px;
+            }
+
+            .modal2 #caracteristicaProduto #branco{
+                width: 40px;
+                height: 40px;
+                background-color: #ffffff;
+                border-radius: 10px;
+                border: none;
+                margin-right: 20px;
+            }
+
+            .modal2 #caracteristicaProduto #especial{
+                width: 40px;
+                height: 40px;
+                background-color: #999999;
+                border-radius: 10px;
+                border: none;
+                margin-right: 20px;
+            }
+        
+        .modal2 #botoes{
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+            .modal2 #botaoContinua{
+                width: 439px;
+                height: 63px;
+                background: #0C70F2;
+                border-radius: 10px;
+                border: none;
+
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 20px;
+                color: #FFFFFF;
+                margin-bottom: 20px;
+                cursor: pointer;
+                
+            }
+
+            .modal2 #botaoFinal{
+                width: 439px;
+                height: 63px;
+                background: #676767;
+                border-radius: 10px;
+                border: none;
+
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 20px;
+                color: #FFFFFF;
+                cursor: pointer;
+            }
+    /*#fundoFormulario{
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background-color: #FFFFFF;
+        opacity: 0;
+        position: fixed;
+    }*/
+
+    #formulario {
+        background-color: #FFFFFF;
+        width: 1267px;
+        height: 700px;
+        
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        border-radius: 100px;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        z-index: -1;
+    }        
+        #formulario form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            
+            background-color: #ffffff;
+            
+           
+        }
+
+            #formulario form div{
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+            
+            }
+
+                #formulario form h1{
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 20px;
+                    color: #0C70F2;
+                    margin-bottom: 40px;
+                }
+
+                #formulario form label{
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 23px;
+                    color: #000000;
+                    margin-bottom: 15px;
+                }
+
+                #formulario form input{
+                    width: 524px;
+                    height: 42px;
+                    background: rgba(255, 255, 255, 0.9);
+                    border: 2px solid #7A7A7A;
+                    border-radius: 10px;
+                    padding: 11px 13px;
+                    margin-bottom: 20px;
+                }
+
+                #formulario form select{
+                    width: 550px;
+                    height: 42px;
+                    background: rgba(255, 255, 255, 0.9);
+                    border: 2px solid #7A7A7A;
+                    border-radius: 10px;
+                    padding: 11px 13px;
+
+                    color: #000000;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 23px;
+                    
+                    margin-bottom: 60px;
+
+                }
+
+                #formulario form button{
+                    width: 439px;
+                    height: 63px;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 20px;
+                    color: #FFFFFF;
+                    border: none;
+
+                    background: #0C70F2;
+                    border-radius: 10px;
+                    cursor: pointer;
+                }
+
+                #formulario form #cancelar{
+                    align-items:end;
+                    text-align: end;
+                    margin-top: 10px;
+                    cursor: pointer;
+                    
+                }

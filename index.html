@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce DNC</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <img src="logo.svg">
+    </header>
+    <div id="login">
+            <h2>
+                Acesse com seu Login ou cadastre-se!
+            </h2>
+            <h3>
+                você pode entrar com o seu CPF
+            </h3>
+            <form>
+                <label>
+                    Digite seu CPF:
+                </label>
+                <input class="login-credential" type="text" placeholder="000.000.000-00">
+                <div class="errorMsg">
+                    
+                </div>
+                <label>
+                    Senha
+                </label>
+                <input class="login-credential" type="password" placeholder="********">
+                <div class="errorMsg">
+                    
+                </div>
+                <button id="botao-logar" type="submit" onclick="return validacao()">
+                    Entrar
+                </button>
+                <div id="respostaBotao" class="errorMsg">
+                    
+                </div>
+                <script src="script1.js">
+
+                </script>
+        </form>   
+    </div>
+    
+</body>
+</html>

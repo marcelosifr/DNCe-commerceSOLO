@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce DNC</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="./script2.js"></script>
+    
+</head>
+<body>
+    <header>
+        <div>
+            <img src="logo.svg">
+            <input type="search" placeholder="O que você está procurando?">
+            <img src="carrinho.svg">
+        </div>
+        <nav>
+            <h3 href="">Novidades</h3>
+            <h3 href="">Jogos</h3>
+            <h3 href="">Video Games</h3>
+            <h3 href="">Mesas Gamer</h3>
+            <h3 href="">Promoções</h3>
+            <h3 href="">Atendimento</h3>
+
+        </nav>
+    </header>
+    <div id="imgCentro">
+        <img src="imgcentro.svg">
+    </div>
+    <div id="menuItens">
+        <div class="cardProd">
+            <img src="xbox.svg" class="img-produto">
+            <h4 class="nome-produto">
+                Microsoft Xbox Series X | Preto
+            </h4>
+            <button type="button" onclick="caracProduto1()">
+                Ver mais
+            </button>
+        </div>
+        <div class="cardProd">
+            <img src="xboxs.svg" class="img-produto">
+            <h4 class="nome-produto">
+                Microsoft Xbox Series S | Branco
+            </h4>
+            <button type="button" onclick="caracProduto2()">
+                Ver mais
+            </button>
+        </div>
+        <div class="cardProd">
+            <img src="switch.svg" class="img-produto">
+            <h4 class="nome-produto">
+                Nintendo Switch com Jogo
+            </h4>
+            <button type="button" onclick="caracProduto3()">
+                Ver mais
+            </button>
+        </div>
+        <div class="cardProd">
+            <img src="gow.svg" class="img-produto">
+            <h4 class="nome-produto">
+                Jogo God of War Playstation
+            </h4>
+            <button type="button" onclick="caracProduto4()">
+                Ver mais
+            </button>
+        </div>
+        <div class="cardProd">
+            <img src="unch.svg" class="img-produto">
+            <h4 class="nome-produto">
+                Jogo Uncharted: The Nathan Drake Collection
+            </h4>
+            <button type="button"  onclick="caracProduto5()">
+                Ver mais
+            </button>
+        </div>
+        <div class="cardProd">
+            <img src="gturism.svg" class="img-produto">
+            <h4 class="nome-produto">
+                Jogo Gran Turismo
+            </h4>
+            <button type="button" onclick="caracProduto6()">
+                Ver mais
+            </button>
+        </div>
+        <div id="modal1">
+            
+            <div class="modal1">
+                <div id="xboxBig">
+                    
+                </div>
+                <h4 id="nomeProduto">
+                    
+                </h4>
+                <h3>
+                    Descrição
+                </h3>
+                <h4 id="descricao">
+                    Lorem ipsum dolor sit amet consectur
+                </h4>
+                <img src="retangulo1.svg" id="barra1">
+                
+            </div> 
+            <div class="modal1">
+                <h1 class="nomeProduto">
+                    
+                </h1>
+                <img src="retangulo2.svg" id="barra2">
+                <h2 id="valor">
+                    R$ 2000,00
+                </h2>
+                <div id="caracteristicaProduto">
+                    <label>
+                        Cor:
+                    </label>
+                    <div id="cores">
+                        <button id="preto" onclick=""></button>
+                        <button id="branco" onclick=""></button>
+                        <button id="especial" onclick=""></button>
+                    </div>
+                </div>
+                <button type="button" onclick="modal2()">
+                    <img src="carrinho2.svg" id="carrinhoBotao" onclick="">
+                    Adicionar ao carrinho
+                </button>
+                <h4 id="voltar" onclick="voltar()">Voltar</h4>
+            </div> 
+
+        </div>
+        
+            <div id="modal2">
+                <div class="modal2">
+                    <div id="xboxBig2">
+
+                    </div>              
+                    
+                </div> 
+                <div class="modal2">
+                    <h1 id="meuCarrinho">
+                        Meu Carrinho
+                    </h1>
+                    <h1 id="nomeProduto2">
+                        Microsoft Xbox Series X | Preto
+                    </h1>
+                    <img src="retangulo2.svg" id="barra2">
+                    <h2 id="valor">
+                        R$ 2000,00
+                    </h2>
+                    <div id="caracteristicaProduto">
+                        <label>
+                            Cor:
+                        </label>
+                        <div id="cores">
+                            <button id="preto" onclick=""></button>
+                            <button id="branco" onclick=""></button>
+                            <button id="especial" onclick=""></button>
+                        </div>
+                    </div>
+                    <div id="botoes">
+                        <button  type="button" id="botaoContinua" onclick="continuaCompra()">
+                            Continuar Comprando
+                        </button>
+                        <button  type="button" id="botaoFinal" onclick="encerraCompra()">
+                            Finalizar Compra
+                        </button>
+                    </div>
+                </div> 
+
+            </div>
+        
+        
+            <div id="formulario">
+                <form>
+                    <h1>
+                        Finalizar compra:
+                    </h1>
+                    <div>
+                        <label>
+                            Nome completo:
+                        </label>
+                        <input class="data-form" type="text" placeholder="Nome completo">
+                    </div>
+                    <div>
+                        <label>
+                            Número do CPF:
+                        </label>
+                        <input class="data-form" type="text" placeholder="Somente números">
+                    </div>
+                    <div>
+                        <label>
+                            Endereço:
+                        </label>
+                        <input class="data-form" type="text" placeholder="Cidade-Estado, Rua, número, complemento">
+                    </div>
+                    <div>   
+                        <label>
+                            Escolha a forma de pagamento:
+                        </label>
+                        <select class="data-form">
+                            <option class="select-form"></option>
+                            <option class="select-form">Cartão débito</option>
+                            <option class="select-form">Cartão crédito</option>
+                            <option class="select-form">Boleto bancário</option>
+                            <option class="select-form">Pix</option>
+                        </select>
+                    </div>
+                    <button type="submit" onclick="return fimCompra()">
+                        Confirmar Pedido
+                    </button>
+                    <h4 id="cancelar" onclick="cancelar()">Cancelar</h4>
+                </form>
+            </div>
+        
+    </div>
+    
+    <div id="rodape">
+        <img src="logorodape.svg">
+        <p>Preços e condições de pagamento exclusivos para compras via internet e podem variar nas lojas físicas.<br> 
+            Para mais informações, entre em contato: (011) 1111-2222</p>
+    </div>
+</body>
+</html>

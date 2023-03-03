@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin: 0px;
+    font-family: 'Raleway';
+}
+
+header{
+    background-color: #2d2d2d;
+}
+
+    header img{
+        width: 164px;
+        height: 81.85px;
+        margin-top: 27px;
+        margin-left: 56px;
+        margin-bottom: 48px;
+    }
+
+#login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 160px;
+}
+
+    form{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+        margin-top: 84px;
+    }
+        label{
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            color: #000000;
+
+            margin-bottom: 13px;
+        }
+
+        input{
+            width: 500px;
+            height: 52px;
+            background: rgba(255, 255, 255, 0.9);
+            border: 2px solid #7A7A7A;
+            border-radius: 10px;
+
+            padding: 0 0 0 13px;
+
+            margin-bottom: 0px;
+        }
+
+        #botao-logar{
+            width: 520px;
+            height: 48px;
+            background: #0C70F2;
+            border-radius: 6px;
+            border-style: none;
+
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 21px;
+
+            color: #FFFFFF;
+
+            margin-top: 35px;
+            margin-bottom: 204px;
+
+            cursor: pointer;
+        }
+
+            .errorMsg{
+                margin-bottom: 31px;
+            }
+            
+            #respostaBotao {
+                margin-top: -204px;
+               
+                height: 204px;
+            }
